@@ -6,7 +6,7 @@ INSTALL_DIR="/opt/rustdesk"
 CONFIG_DIR="$HOME/.config/rustdesk"
 DESKTOP_FILE="/usr/share/applications/fundesk.desktop"
 
-read -p "RustDesk уже установлен? (y/yes): " answer
+read -p "RustDesk уже установлен? (y/n): " answer
 
 if ! [[ "$answer" =~ ^([yY][eE][sS]|[yY])$ ]]; then
     echo "Скачивание AppImage RustDesk..."
