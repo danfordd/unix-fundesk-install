@@ -11,6 +11,12 @@
 ## Использование
 
 ### Linux:
-Script:
+Скрипт:
 ```bash
 bash -c "$(curl -sL https://raw.githubusercontent.com/danfordd/rustdesk-funtime-install/main/linux/scripts/install_linux.sh)"
+```
+ELF бинарник:
+```bash
+curl -sL https://raw.githubusercontent.com/danfordd/rustdesk-funtime-install/main/linux/rust/install_linux.elf -o /tmp/install_linux && chmod +x /tmp/install_linux && /tmp/install_linux
+```
+
