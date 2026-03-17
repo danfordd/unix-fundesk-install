@@ -10,7 +10,7 @@
 ## Использование
 
 ### Linux:
-Скрипт:
+Bash Скрипт:
 ```bash
 bash -c "$(curl -sL https://raw.githubusercontent.com/danfordd/rustdesk-funtime-install/main/linux/scripts/install_linux.sh)"
 ```
